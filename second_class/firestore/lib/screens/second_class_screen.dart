@@ -22,7 +22,7 @@ class SeconClassScreen extends StatelessWidget {
           IconButton(onPressed: () => _addTask(), icon: const Icon(Icons.add))
         ],
       ),
-      body: const TaskList(),
+      body: TaskList(),
     );
   }
 }

@@ -11,4 +11,14 @@ class FirestoreService {
       'create_at': DateTime.now()
     });
   }
+
+  static Future<List<Map<String, dynamic>>> getTasks() async {
+    final tasks = await _firestore.collection('tasks').get();
+
+    return tasks.docs.map((docSnap) {
+      final task = docSnap.data();
+      task['id'] = docSnap.id;
+      return task;
+    }).toList();
+  }
 }
