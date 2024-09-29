@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1016141194265",
+    "project_id": "serverless-td",
+    "storage_bucket": "serverless-td.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1016141194265:android:b0f8528799c4dae9837688",
+        "android_client_info": {
+          "package_name": "com.secondclass.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCCzveWokyPAEDg04VUYanTiHTO3qzsCDM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

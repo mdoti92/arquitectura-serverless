@@ -1,0 +1,1 @@
+{"flutter":{"platforms":{"android":{"default":{"projectId":"serverless-td","appId":"1:1016141194265:android:b0f8528799c4dae9837688","fileOutput":"android/app/google-services.json"}},"dart":{"lib/firebase_options.dart":{"projectId":"serverless-td","configurations":{"android":"1:1016141194265:android:b0f8528799c4dae9837688","ios":"1:1016141194265:ios:aa33ec06fab61664837688"}}}}}}
